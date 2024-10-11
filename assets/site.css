@@ -1,0 +1,9 @@
+:root {
+	--themecolor:  #C6C09C;
+	--themecolorrgb: 34, 185, 254;
+	--header-height: 70px;
+}
+
+#copyrights {
+    background-color: #bee6f9!important;
+}
