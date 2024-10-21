@@ -3,9 +3,9 @@ am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost'));
 //runCode('network');
 
 bootstrap([
-	'name' => 'GlobalConcernsIndia.org',
-	'byline' => '[byline]',
-	'footer-message' => '<marquee>[footer-message]</marquee>',
+	'name' => 'Global Concerns',
+	'byline' => 'Transforming every sphere of life',
+	'footer-message' => '<marquee><a href="%url%about-us">Systematically addressing inequality and injustice, and to connect them to making conscious decisions to be in harmony.</a></marquee>',
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
@@ -14,6 +14,7 @@ bootstrap([
 	'use-parent-slugs' => true,
 	//'home-link-to-section' => true,
 	//'list-only-folders' => true,
+	'sections' => ['programs', 'community', 'about-us'],
 	'sections-have-files' => true,
 
 	'folder' => '/content/',
@@ -21,12 +22,12 @@ bootstrap([
 	'page_parameter1_in_title' => true,
 
 	'siteMenuName' => 'GCI Main',
-	'sections' => ['initiatives'],
 	'no-promotions' => true,
 
-	'theme' => 'cv-nonprofit',
+	'theme' => 'biz-land',
 	'theme-color' => '22B9FE',
-	'image-in-logo' => '-rectangle.jpg',
+	'needs-container' => true,
+	//'image-in-logo' => '-rectangle.jpg',
 
 	'start_year' => '1999',
 	'email' => 'contact@globalconcernsindia.org',
