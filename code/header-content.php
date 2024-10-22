@@ -13,7 +13,7 @@ function render_banner() {
 	foreach($prefixes as $at => $prefix) {
 		if (disk_file_exists(SITEPATH . '/' . ($prefix = str_replace(SITEPATH . '/', '', $prefix)) . '.jpg')) { ?>
 			<div class="banner banner-<?php echo $at; ?> bg-image"
-				style="background-image: url('<?php echo am_var('url') . $prefix;?>.jpg'); filter: blur(5px); -webkit-filter: blur(5px); background-position: center;">
+				style="background-image: url('<?php echo am_var('url') . $prefix;?>.jpg'); filter: blur(5px); -webkit-filter: blur(5px); background-position: center; height: 400px;">
 				<?php echo '<!-- RENDERING banner images at: ' . $prefix . ' -->' . am_var('nl'); ?>
 			</div>
 		<?php

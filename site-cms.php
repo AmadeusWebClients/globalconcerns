@@ -18,7 +18,6 @@ bootstrap([
 	'sections-have-files' => true,
 
 	'folder' => '/content/',
-	'support_page_parameters' => true,
 	'page_parameter1_in_title' => true,
 
 	'siteMenuName' => 'GCI Main',
@@ -27,15 +26,15 @@ bootstrap([
 	'theme' => 'biz-land',
 	'theme-color' => '22B9FE',
 	'needs-container' => true,
-	//'image-in-logo' => '-rectangle.jpg',
+	'image-in-logo' => '-logo.png',
 
 	'start_year' => '1999',
 	'email' => 'contact@globalconcernsindia.org',
-	'phone' => '+91.9841223313',
+	'phone' => '+91.9845518138',
 	'address' => '[address]<br />Bangalore, Tamilnadu',
 	'social' => [
-		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/pages/GlobalConcernsIndia', 'name' => 'facebook: Anbagam Page' ],
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@GlobalConcernsIndia', 'name' => 'youtube: GlobalConcernsIndia Channel' ],
+		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/pages/GlobalConcernsIndia', 'name' => 'facebook: Global Concerns India Page' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@GlobalConcernsIndia', 'name' => 'youtube: Global Concerns India Channel' ],
 	],
 
 	'url' => $local ? replace_vars('http://localhost%port%/symphony/globalconcerns/', 'port') : 'https://globalconcerns.yieldmore.org/',
