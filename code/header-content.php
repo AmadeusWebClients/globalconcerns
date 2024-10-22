@@ -11,13 +11,11 @@ function render_banner() {
 	];
 
 	foreach($prefixes as $at => $prefix) {
-		if (disk_file_exists(SITEPATH . '/' . ($prefix = str_replace(SITEPATH . '/', '', $prefix)) . '-portrait.jpg')) { ?>
-			<div class="banner banner-<?php echo $at; ?>">
-				<?php echo '<!-- RENDERING banner images at: ' . $prefix . ' -->' . am_var('nl');
-				makePLImages($prefix);
-				?>
+		if (disk_file_exists(SITEPATH . '/' . ($prefix = str_replace(SITEPATH . '/', '', $prefix)) . '.jpg')) { ?>
+			<div class="banner banner-<?php echo $at; ?> bg-image"
+				style="background-image: url('<?php echo am_var('url') . $prefix;?>.jpg'); filter: blur(5px); -webkit-filter: blur(5px); background-position: center;">
+				<?php echo '<!-- RENDERING banner images at: ' . $prefix . ' -->' . am_var('nl'); ?>
 			</div>
-			<hr />
 		<?php
 			break;
 		}

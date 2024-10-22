@@ -7,3 +7,28 @@
 #copyrights {
     background-color: #bee6f9!important;
 }
+
+@font-face {
+    font-family:"wix-headings";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/5cee8d6e-89ad-4d8c-a0ac-584d316b15ae.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/388ef902-2c31-4818-abb1-a40dcd81f6d6.woff") format("woff");
+font-display: swap;
+}
+
+#content h2 { background-color:#F5CD05; padding: 8px; border-radius: 0; display: inline-block; font-family: wix-headings, sans-serif; font-size: 36px; margin-bottom: 12px; }
+
+@font-face {
+    font-family: "avenir-lt";
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff") format("woff");
+font-display: swap;
+}
+
+#content h3 { font-family: avenir-lt, sans-serif; line-height: 1.5em; font-size: 18px; margin-bottom: 8px; }
+
+@font-face {
+    font-family:"brandon-grot";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/69b40392-453a-438a-a121-a49e5fbc9213.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9362bca5-b362-4543-a051-2129e2def911.woff") format("woff");
+font-display: swap;
+}
+
+#content { font-family: brandon-grot, sans-serif; color: rgb(4, 31, 62); font-size: 18px; line-height: 1.5em; }
