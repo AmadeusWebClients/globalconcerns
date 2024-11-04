@@ -9,10 +9,10 @@ bootstrap([
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1', 'date' => '11 Oct 2024', ],
+	'version' => [ 'id' => '1.1.1', 'date' => '4 Nov 2024', ],
 
 	'use-parent-slugs' => true,
-	//'home-link-to-section' => true,
+	'home-link-to-section' => true,
 	//'list-only-folders' => true,
 	'sections' => ['programs', 'community', 'about-us'],
 	'sections-have-files' => true,
@@ -21,6 +21,7 @@ bootstrap([
 	'page_parameter1_in_title' => true,
 
 	'siteMenuName' => 'GCI Main',
+	'abbr' => 'GCI',
 	'no-promotions' => true,
 
 	'theme' => 'biz-land',

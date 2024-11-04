@@ -4,8 +4,14 @@
 	--header-height: 70px;
 }
 
-#copyrights {
+#copyrights, body {
     background-color: #bee6f9!important;
+}
+
+#content section, #content .content {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 @font-face {
@@ -15,6 +21,13 @@ font-display: swap;
 }
 
 #content h2 { background-color:#F5CD05; padding: 8px; border-radius: 0; display: inline-block; font-family: wix-headings, sans-serif; font-size: 36px; margin-bottom: 12px; }
+
+.node-index .in-page, .node-index #directory-sections,
+    .node-programs .in-page,
+    .node-community .in-page,
+    .node-about-us .in-page {
+        display: none!important;
+}
 
 @font-face {
     font-family: "avenir-lt";
@@ -32,3 +45,13 @@ font-display: swap;
 }
 
 #content { font-family: brandon-grot, sans-serif; color: rgb(4, 31, 62); font-size: 18px; line-height: 1.5em; }
+
+@font-face {
+    font-family: 'dancingscript-regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/dancingscript/v9/DK0eTGXiZjN6yA8zAEyM2RN-0beyHaEC1kqeqPFpWrs.woff2') format('woff2');
+    font-display: swap;
+}
+
+.cursive { font-family: dancingscript-regular, dancing script, cursive; }

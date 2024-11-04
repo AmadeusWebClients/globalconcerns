@@ -1,4 +1,4 @@
-## The Schooling Project
+<h2 class="in-page">The Schooling Project</h2>
 
 ### The Schooling Project is the flagship program of GCI.
 
@@ -7,6 +7,8 @@ We believe that education is the most important requirement to build our nations
 The Schooling Project was initiated in 2002 with support from **friends of GCI**, led by **Suresh Venkat, Abhay Toshniwal and Nitya Rao, Tushad and Sneha Talati, Chatura and Shabari Padaki**.
 
 Their belief: **that every child must have access to formal school and holistic learning to enhance their potential and inspire them to discover and follow their dreams**.
+
+<!--more-->
 
 In the beginning five friends pooled money to keep 10 children from vulnerable and poor families in school. Over the years the number of children steadily increased, as did the number  of friends supporting (now approximately 400).
 
