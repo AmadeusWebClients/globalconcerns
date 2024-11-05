@@ -20,7 +20,8 @@
 font-display: swap;
 }
 
-#content h2 { background-color:#F5CD05; padding: 8px; border-radius: 0; display: inline-block; font-family: wix-headings, sans-serif; font-size: 36px; margin-bottom: 12px; }
+#content h2 { padding: 8px; border-radius: 0; display: inline-block; font-family: wix-headings, sans-serif; font-size: 36px; margin-bottom: 12px; }
+#content h2, .site-bgd { background-color:#F5CD05; }
 
 .node-index .in-page, .node-index #directory-sections,
     .node-programs .in-page,
@@ -54,4 +55,5 @@ font-display: swap;
     font-display: swap;
 }
 
-.cursive { font-family: dancingscript-regular, dancing script, cursive; }
+.cursive, #content h3.cursive { font-family: dancingscript-regular, dancing script, cursive; }
+#content h3.cursive { font-size: 45px; }

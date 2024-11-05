@@ -1,21 +1,34 @@
 <?php
 am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost'));
 //runCode('network');
+disk_include_once(SITEPATH . '/code/site-functions.php');
 
 bootstrap([
-	'name' => 'Global Concerns',
+	'name' => 'Global Concerns India',
 	'byline' => 'Transforming every sphere of life',
 	'footer-message' => '<marquee><a href="%url%about-us">Systematically addressing inequality and injustice, and to connect them to making conscious decisions to be in harmony.</a></marquee>',
+	'description' => $rootDesc = 'Global Concerns India is a not-for-profit organization, working on issues of human rights, gender equality and education.', //TODO: move to sheet
+	'og:description' => $rootDesc,
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.1.1', 'date' => '4 Nov 2024', ],
+	'version' => [ 'id' => '1.1.2', 'date' => '5 Nov 2024', ],
 
 	'use-parent-slugs' => true,
 	'home-link-to-section' => true,
 	//'list-only-folders' => true,
 	'sections' => ['programs', 'community', 'about-us'],
 	'sections-have-files' => true,
+
+	'use-menu-files' => true,
+	'blur_banners' => ['schooling'],
+	'siteHumanizeReplaces' => [
+		'schooling' => 'The Schooling Project',
+		'trafficking' => 'Combatting Human Trafficking',
+		'creativity centre' => 'Ananya Children\'s Creativity Centre',
+		'digital literacy' => 'Sanmathi Ethical Digital Literacy',
+		'women' => 'Adaikalam for Women',
+	],
 
 	'folder' => '/content/',
 	'page_parameter1_in_title' => true,
@@ -41,4 +54,3 @@ bootstrap([
 	'url' => $local ? replace_vars('http://localhost%port%/symphony/globalconcerns/', 'port') : 'https://globalconcerns.yieldmore.org/',
 	'path' => SITEPATH,
 ]);
-?>
