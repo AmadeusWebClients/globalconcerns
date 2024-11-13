@@ -1,6 +1,6 @@
 <h2 class="in-page">Combatting Human Trafficking</h2>
 
-In collaboration with likeminded organizations and the police anti-human trafficking unit, GCI continues to campaign against human trafficking in any form.
+In collaboration with like-minded organizations and the police anti-human trafficking unit, GCI continues to campaign against human trafficking in any form.
 
 GCI creates awareness among college students, community groups, police, magistrates, prosecutors, panchayat-elected representatives, NGOs, Rotary Clubs and PRI functionaries. 
 

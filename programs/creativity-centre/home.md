@@ -10,7 +10,7 @@ A team of volunteer Mentors conduct various scholastic and life-long learning se
 
 <!--more-->
 
-The land for the Centre was purchased with with funds raised in 2011 by friends of GCI who organized a Golf Tournament in Bangalore. In 2018 the Southern Lodge of Freemasons stepped up with the funds needed for constructing the building itself.
+The land for the Centre was purchased with funds raised in 2011 by friends of GCI who organized a Golf Tournament in Bangalore. In 2018 the Southern Lodge of Freemasons stepped up with the funds needed for constructing the building itself.
 
 Basis Education Foundation (Basis) funded doors, windows, electrical wiring, and sanitary fittings on the first floor.
 
@@ -18,4 +18,4 @@ Basis, in partnership with Maarga, is running a **Basis Learning Centre** at Ana
 
 In November 2021 they kicked off our Sanmathi Ethical Digital Literacy program.
 
-The goal: to give children and youth between the ages of 13-18 gain digital skills and the wisdom needed to integrate the technology of our times into their thinking and decision-making.
+The goal: to give children and youth between the ages of 13-18 digital skills and the wisdom needed to integrate the technology of our times into their thinking and decision-making.

@@ -6,7 +6,7 @@ In a world where power is increasingly held by those who hold the "digital reins
 
 <!--more-->
 
-This disadvantage traps them in a cycle of poverty, and could also increase risk of child marriage, susceptibility to trafficking, child labour, gang involvement, and a myriad of other potentially negative and damaging outcomes.
+This disadvantage traps them in a cycle of poverty, and could also increase the risk of child marriage, susceptibility to trafficking, child labour, gang involvement, and a myriad of other potentially negative and damaging outcomes.
 
 We're excited to extend the opportunity of learning digital skills through the Basis Learning Centre that we host, in partnership with Maarga.
 

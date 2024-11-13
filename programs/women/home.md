@@ -20,6 +20,6 @@ She dreamily joked how happy she would be to go to a place where, for a little w
 
 Such a simple idea, really, but all the other women sitting in the meeting retorted: "such a place is non-existent for women like us."
 
-We asked the women what would they expect in such a place, if such a place could exist. Almost all of them said, "Nothing. We could just go, sit around and do nothing, maybe talk to someone, watch a film, sing songs, play some games." They mentioned several indoor games that they used to play when they were girls.
+We asked the women what they would expect in such a place, if such a place could exist. Almost all of them said, "Nothing. We could just go, sit around and do nothing, maybe talk to someone, watch a film, sing songs, play some games." They mentioned several indoor games that they used to play when they were girls.
 
-<blockquote class="site-bgd">Adaikalam will be a place where women can feel a sense of belonging, regain their inner strength, join a yoga session, calm their minds, laugh, play games they have almost forgotten, be themselves without anyone expecting them to do anything for anyone else, even if just for a little while!</blockquote>
+<blockquote class="site-bgd">Adaikalam will be a place where women can feel a sense of belonging, regain their inner strength, join a yoga session, calm their minds, laugh, play games they have almost forgotten and be themselves without anyone expecting them to do anything for anyone else, even if just for a little while!</blockquote>
