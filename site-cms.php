@@ -10,13 +10,14 @@ bootstrap([
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.1.2', 'date' => '5 Nov 2024', ],
+	'version' => [ 'id' => '1.1.2.2', 'date' => '13 Nov 2024', ],
 
 	'use-parent-slugs' => true,
 	'home-link-to-section' => true,
 	//'list-only-folders' => true,
-	'sections' => ['programs', /*'community',*/ 'about-us'],
+	'sections' => ['programs', /*'community',*/ 'resources'],
 	'sections-have-files' => true,
+	'scaffold' => ['updates', 'sitemap'],
 
 	'use-menu-files' => true,
 	'blur_banners' => ['schooling'],
@@ -42,15 +43,18 @@ bootstrap([
 
 	//TODO: Use when ready
 	'no-engage' => true,
-	'no-updates' => true,
+	//'no-updates' => true,
 
 	'start_year' => '1999',
 	'email' => 'contact@globalconcernsindia.org',
 	'phone' => '+91.9845518138',
 	'address' => '[address]<br />Bangalore, Tamilnadu',
 	'social' => [
+		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/global-concerns-india/', 'name' => 'LinkedIn: Global Concerns India Company' ],
+		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/in/brinda-adige/', 'name' => 'LinkedIn: Brinda @ Global Concerns India' ],
 		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/pages/GlobalConcernsIndia', 'name' => 'facebook: Global Concerns India Page' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@GlobalConcernsIndia', 'name' => 'youtube: Global Concerns India Channel' ],
+		//TODO: Insta, Newsletter (linkedin / groups.io)
 	],
 
 	'url' => $local ? replace_vars('http://localhost%port%/symphony/globalconcerns/', 'port') : 'https://globalconcerns.yieldmore.org/',

@@ -27,6 +27,7 @@ font-display: swap;
 .node-index .in-page, .node-index #directory-sections,
     .node-programs .in-page,
     .node-community .in-page,
+    .node-resources .in-page,
     .node-about-us .in-page {
         display: none!important;
 }
