@@ -1,14 +1,12 @@
 <?php
 am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost'));
-//runCode('network');
+
 disk_include_once(SITEPATH . '/code/site-functions.php');
 
 bootstrap([
 	'name' => 'Global Concerns India',
 	'byline' => 'Transforming every sphere of life',
 	'footer-message' => '<marquee><a href="%url%about-us">Systematically addressing inequality and injustice, and to connect them to making conscious decisions to be in harmony.</a></marquee>',
-	'description' => $rootDesc = 'Global Concerns India is a not-for-profit organization, working on issues of human rights, gender equality and education.', //TODO: move to sheet
-	'og:description' => $rootDesc,
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
@@ -17,7 +15,7 @@ bootstrap([
 	'use-parent-slugs' => true,
 	'home-link-to-section' => true,
 	//'list-only-folders' => true,
-	'sections' => ['programs', 'community', 'about-us'],
+	'sections' => ['programs', /*'community',*/ 'about-us'],
 	'sections-have-files' => true,
 
 	'use-menu-files' => true,
@@ -41,6 +39,10 @@ bootstrap([
 	'theme-color' => '22B9FE',
 	'needs-container' => true,
 	'image-in-logo' => '-logo.png',
+
+	//TODO: Use when ready
+	'no-engage' => true,
+	'no-updates' => true,
 
 	'start_year' => '1999',
 	'email' => 'contact@globalconcernsindia.org',

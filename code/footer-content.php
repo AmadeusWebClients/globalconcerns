@@ -5,7 +5,7 @@ $logoRel =  logoRel();
 ?>
 <div id="footer-content" class="footer-bgd" style="margin-top: 30px;">
 	<div class="container">
-		<?php runCode('engage'); ?>
+		<?php if (!am_var('no-engage')) runCode('engage'); ?>
 		<section id="footer-message">
 			<a href="<?php echo $homeUrl;?>"><img src="<?php echo $logoUrl; ?><?php echo $logoRel; ?>-logo@2x.png" class="img-fluid img-max-500" alt="<?php echo am_var('name'); ?>" /></a><br />
 			<u><?php echo am_var('name'); ?></u> &mdash;
@@ -18,4 +18,3 @@ $logoRel =  logoRel();
 		<?php load_amadeus_module('share'); ?>
 	</div>
 </div>
-
