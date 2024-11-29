@@ -14,6 +14,7 @@ bootstrap([
 
 	'use-parent-slugs' => true,
 	'home-link-to-section' => true,
+	'use-menu-files' => true,
 	//'list-only-folders' => true,
 	'sections' => ['programs', /*'community',*/ 'resources'],
 	'sections-have-files' => true,
@@ -27,6 +28,7 @@ bootstrap([
 		'creativity centre' => 'Ananya Children\'s Creativity Centre',
 		'digital literacy' => 'Sanmathi Ethical Digital Literacy',
 		'women' => 'Adaikalam for Women',
+		'lifelong learning' => 'Assisted and Lifelong Learning Program',
 	],
 
 	'folder' => '/content/',
@@ -45,13 +47,13 @@ bootstrap([
 	'no-engage' => true,
 	//'no-updates' => true,
 
-	'start_year' => '1999',
+	'start_year' => '2005',
 	'email' => 'contact@globalconcernsindia.org',
 	'phone' => '+91.9845518138',
 	'address' => '[address]<br />Bangalore, Tamilnadu',
 	'social' => [
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/global-concerns-india/', 'name' => 'LinkedIn: Global Concerns India Company' ],
-		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/in/brinda-adige/', 'name' => 'LinkedIn: Brinda @ Global Concerns India' ],
+		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/in/brinda-adige/', 'name' => 'LinkedIn: Brinda Adige (Founder) @ Global Concerns India' ],
 		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/pages/GlobalConcernsIndia', 'name' => 'facebook: Global Concerns India Page' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@GlobalConcernsIndia', 'name' => 'youtube: Global Concerns India Channel' ],
 		//TODO: Insta, Newsletter (linkedin / groups.io)

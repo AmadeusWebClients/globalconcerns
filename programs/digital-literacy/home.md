@@ -1,4 +1,4 @@
-<h2 class="in-page">Ethical Digital Literacy</h2>
+<h2 class="in-page">Sanmathi Ethical Digital Literacy</h2>
 
 Most of the children and youth we are working with do not have access to basic computer skills development opportunities from an early age.
 
