@@ -25,8 +25,8 @@ bootstrap([
 	'siteHumanizeReplaces' => [
 		'schooling' => 'The Schooling Project',
 		'trafficking' => 'Combatting Human Trafficking',
-		'creativity centre' => 'Ananya Children\'s Creativity Centre',
-		'digital literacy' => 'Sanmathi Ethical Digital Literacy',
+		'creativity centre' => 'Children\'s Creativity Centre',
+		'digital literacy' => 'BASIS Ethical Digital Literacy',
 		'women' => 'Adaikalam for Women',
 		'lifelong learning' => 'Assisted and Lifelong Learning Program',
 	],

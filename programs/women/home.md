@@ -1,3 +1,5 @@
+<!--TODO: complete rework-->
+
 <h2 class="in-page">Adaikalam for Women</h2>
 
 <div style="text-align: center; max-width: 450px; width: 50%; margin: 0 auto;">
