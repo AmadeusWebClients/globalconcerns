@@ -14,6 +14,6 @@ You may also support the Transformative Leadershsip with Values program that eng
 
 ----
 
-<img class="img-fluid img-max-300" src="%url%assets/globalconcernsindia-razorpay-qrcode.jpg" />
+<img class="img-fluid img-max-300" src="%url%assets/globalconcernsindia-indian-upi-qrcode.jpg" />
 
 %bank-details-snippet%

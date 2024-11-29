@@ -10,7 +10,7 @@ bootstrap([
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.1.2.2', 'date' => '13 Nov 2024', ],
+	'version' => [ 'id' => '1.1.3', 'date' => '29 Nov 2024', ],
 
 	'use-parent-slugs' => true,
 	'home-link-to-section' => true,
@@ -18,7 +18,7 @@ bootstrap([
 	//'list-only-folders' => true,
 	'sections' => ['programs', /*'community',*/ 'resources'],
 	'sections-have-files' => true,
-	'scaffold' => ['updates', 'sitemap'],
+	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
 	'use-menu-files' => true,
 	'blur_banners' => ['schooling'],
@@ -45,7 +45,7 @@ bootstrap([
 
 	//TODO: Use when ready
 	'no-engage' => true,
-	//'no-updates' => true,
+	'no-updates' => true,
 
 	'start_year' => '2005',
 	'email' => 'contact@globalconcernsindia.org',
