@@ -8,12 +8,14 @@ You may also support the Transformative Leadershsip with Values program that eng
 
 </section><section>
 
-# Donate Online
-
-%razorpay-links%
-
-----
-
-<img class="img-fluid img-max-300" src="%url%assets/globalconcernsindia-indian-upi-qrcode.jpg" />
-
 %bank-details-snippet%
+
+</section><section style="text-align: center;">
+
+## [Donate to GCI by UPI](#upi-site)
+
+%upi-site-textbox%
+
+
+<a href="#upi-site"><img class="img-fluid img-max-300" src="%url%assets/globalconcernsindia-indian-upi-qrcode.jpg" /></a>
+

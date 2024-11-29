@@ -23,7 +23,11 @@
 font-display: swap;
 }
 
-.logo img { background-color: var(--site-logo-bgd, #999); }
+#header { padding: 0!important; }
+#header .d-flex { gap: 0; }
+#header h1 { padding: 0px; height: 80px; background: url(globalconcernsindia-header-logo.png) no-repeat left center; background-size: contain; }
+
+/*.logo img { background-color: var(--site-logo-bgd, #999); }*/
 #content h2 { padding: 8px; border-radius: 0; display: inline-block; font-family: wix-headings, sans-serif; font-size: 36px; margin-bottom: 12px; }
 #content h2.block { display: block; margin: 15px 0 10px 0; }
 #content h2, .site-bgd { background-color: var(--site-h2-bgd, #ccc); }
