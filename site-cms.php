@@ -5,12 +5,12 @@ disk_include_once(SITEPATH . '/code/site-functions.php');
 
 bootstrap([
 	'name' => $name = 'Global Concerns India',
-	'byline' => 'Transforming every sphere of life',
-	'footer-message' => '<marquee><a href="%url%about-us/">Systematically addressing inequality and injustice, and to connect them to making conscious decisions to be in harmony.</a></marquee>',
+	'byline' => 'Transforming every sphere of life, with values',
+	'footer-message' => '<marquee><a href="%url%about-us/">&hellip;connecting people to make mindful choices, strengthening relationships in harmony with nature.</a></marquee>',
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.1.3.3', 'date' => '29 Nov 2024', ],
+	'version' => [ 'id' => '1.1.2', 'date' => '30 Nov 2024', ],
 
 	'use-parent-slugs' => true,
 	'home-link-to-section' => true,
@@ -48,9 +48,14 @@ bootstrap([
 	'no-updates' => true,
 
 	'start_year' => '2005',
-	'email' => 'contact@globalconcernsindia.org',
-	'phone' => '+91.9845518138',
-	'address' => '[address]<br />Bangalore, Tamilnadu',
+
+	'email' => 'globalconcernsindia@gmail.com',
+	'phone' => $phone = '+91.9845133354',
+	'phone2' => $phone2 = '+91.9845518138',
+
+	'address' => 'Registered office: 17 Rhenius Street, 5A Sukhi Apartments, Richmond Town, Bengaluru-560 025',
+	'address2' => 'Community Office: No.25 & 26, 2nd Cross, LRNagar, opp. NGV, Koramangala, Bengaluru 560 047',
+
 	'upi' => [ 'site' => [ 'id' => 'gcindia1@sbi', 'name' => $name ] ],
 	'social' => [
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/global-concerns-india/', 'name' => 'LinkedIn: Global Concerns India Company' ],

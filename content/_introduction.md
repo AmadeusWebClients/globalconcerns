@@ -1,11 +1,14 @@
-<div class="content row">
-	<div style="font-size: 29px; text-align: center; font-family:brandon-grot, sans-serif;"
-		class="col-md-8 col-sm-12">Inside us all are powers <b>so strong</b>, treasures <b>so rich</b>,<br />	possibilities <b>so endless</b>, that, to command them all to action<br /><br />would <b>change the lives</b> of people less privileged.<br /><br />We invite you to <b>celebrate life</b> with us!</div><div class="col-md-4 col-sm-12" style="text-align: right"><img class="img-max-200" src="%url%globalconcernsindia-icon-large.png" /></div>
-</div>
+%home-snippet%
 
-<section style="font-size: 25px;">
+</section><section>
 
-<b>Vision</b> - Building a compassionate, and gender-equitable society in harmony with nature.<br />
-<b>Mission</b> - Creating spaces and opportunities for holistic education and leadership with values.
+**Vision** - Building a compassionate, and gender-equitable society in harmony with nature.
 
-</section>
+**Mission** - Creating spaces and opportunities for holistic education and leadership with values.
+
+</section><section>
+
+**Global Concerns India** is a dedicated community-based civil society organization that champions education, gender equity, transformative leadership, and active community participation in local governance and our Constitution. We are committed to combating domestic, gender-based violence and human trafficking for sexual exploitation, as well as bonded and forced labor. Our belief - by empowering individuals, especially women and young people, we can strengthen communities and enable people to become their own strongest advocates against, these critical issues.
+
+Our mission is to uplift vulnerable communities in Bangalore, Chikkabalapur, and Kolar by empowering women, children, youth, and the elderly to access essential support and entitlements from government programs. We are committed to fighting against exploitation and injustices that affect women, elderly and children, ensuring that every individual lives with dignity and security. Your support will add to making a real difference in their lives.
+
