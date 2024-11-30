@@ -1,9 +1,8 @@
 %home-snippet%
 
-</section><section>
+</section><hr /><section>
 
-**Vision** - Building a compassionate, and gender-equitable society in harmony with nature.
-
+**Vision** - Building a compassionate, and gender-equitable society in harmony with nature.<br />
 **Mission** - Creating spaces and opportunities for holistic education and leadership with values.
 
 </section><section>

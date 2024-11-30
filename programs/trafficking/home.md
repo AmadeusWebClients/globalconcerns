@@ -2,7 +2,7 @@
 
 GCI's emphasis remains on addressing violence against women and children, living in vulnerable situations of violence, conflict or allied challenges.
 
-Human trafficking technically is labelled within the realms of an organised crimes. Crimes of sexual exploitation, organ trade, pornography and forced/bonded labour through the trafficking of people. Hence GCI works with a network of CSOs & the Govt. to combat these Crimes, and catalysing all facets of these Crimes to ensure victims and survivors have access to justice and restoration of their lives.
+Human trafficking technically is labelled within the realms of organised crimes. Crimes of sexual exploitation, organ trade, pornography and forced/bonded labour through the trafficking of people. Hence GCI works with a network of CSOs & the Govt. to combat these Crimes, and catalysing all facets of these Crimes to ensure victims and survivors have access to justice and restoration of their lives.
 
 GCI is passionately committed to the prevention, rescue, protection, prosecution, home placement, and rehabilitation of children and individuals, prosecuting those perpetrators who would exploit themed through human trafficking. By partnering with various government departments, we ensure effective intervention in trafficking cases at all levels.
 

@@ -13,10 +13,11 @@ bootstrap([
 	'version' => [ 'id' => '1.1.2', 'date' => '30 Nov 2024', ],
 
 	'use-parent-slugs' => true,
+	'site-home-in-menu' => true,
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
 	//'list-only-folders' => true,
-	'sections' => ['programs', /*'community',*/ 'resources'],
+	'sections' => ['programs', /*'community', 'resources'*/],
 	'sections-have-files' => true,
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
@@ -47,7 +48,7 @@ bootstrap([
 	'no-engage' => true,
 	'no-updates' => true,
 
-	'start_year' => '2005',
+	'start_year' => '2005', //NB: confirmed - it's Jan 2005
 
 	'email' => 'globalconcernsindia@gmail.com',
 	'phone' => $phone = '+91.9845133354',
