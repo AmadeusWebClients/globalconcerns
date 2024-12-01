@@ -11,3 +11,4 @@
 
 Our mission is to uplift vulnerable communities in Bangalore, Chikkabalapur, and Kolar by empowering women, children, youth, and the elderly to access essential support and entitlements from government programs. We are committed to fighting against exploitation and injustices that affect women, elderly and children, ensuring that every individual lives with dignity and security. Your support will add to making a real difference in their lives.
 
+</section>
