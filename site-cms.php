@@ -10,7 +10,7 @@ bootstrap([
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.1.2', 'date' => '30 Nov 2024', ],
+	'version' => [ 'id' => '1.1.3', 'date' => '10 Dec 2024', ],
 
 	'use-parent-slugs' => true,
 	'site-home-in-menu' => true,
@@ -61,7 +61,8 @@ bootstrap([
 	'social' => [
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/global-concerns-india/', 'name' => 'LinkedIn: Global Concerns India Company' ],
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/in/brinda-adige/', 'name' => 'LinkedIn: Brinda Adige (Founder) @ Global Concerns India' ],
-		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/pages/GlobalConcernsIndia', 'name' => 'facebook: Global Concerns India Page' ],
+		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/GlobalConcernsIndia', 'name' => 'facebook: Global Concerns India Page' ],
+		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/GCI.CreativityCentre/', 'name' => 'facebook: GCI\'s Children\'s Creativity Centre Page' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@GlobalConcernsIndia', 'name' => 'youtube: Global Concerns India Channel' ],
 		//TODO: Insta, Newsletter / groups.io
 	],

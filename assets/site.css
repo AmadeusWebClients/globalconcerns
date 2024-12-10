@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+
 :root {
 	--themecolor:  #C6C09C;
 	--themecolorrgb: 34, 185, 254;
@@ -17,17 +21,13 @@
     padding: 20px;
 }
 
-@font-face {
-    font-family:"wix-headings";
-    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/5cee8d6e-89ad-4d8c-a0ac-584d316b15ae.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/388ef902-2c31-4818-abb1-a40dcd81f6d6.woff") format("woff");
-font-display: swap;
-}
-
 #header { padding: 0!important; }
 #header .d-flex { gap: 0; }
 #header h1 { padding: 0px; height: 80px; background: url(globalconcernsindia-header-logo.png) no-repeat left center; background-size: contain; }
 
-#content h2 { padding: 8px; border-radius: 0; display: inline-block; font-family: wix-headings, sans-serif; font-size: 36px; margin-bottom: 12px; }
+
+
+#content h2 { padding: 8px; border-radius: 0; display: inline-block; font-size: 36px; margin-bottom: 12px; }
 #content h2.block { display: block; margin: 15px 0 10px 0; }
 #content h2, .site-bgd { background-color: var(--site-h2-bgd, #ccc); }
 
@@ -39,30 +39,9 @@ font-display: swap;
         display: none!important;
 }
 
-@font-face {
-    font-family: "avenir-lt";
-    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff2") format("woff2"),
-    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-85Heavy.woff") format("woff");
-font-display: swap;
-}
+#content h3 { line-height: 1.5em; font-size: 18px; margin-bottom: 8px; }
 
-#content h3 { font-family: avenir-lt, sans-serif; line-height: 1.5em; font-size: 18px; margin-bottom: 8px; }
+#content { font-family: "Playfair Display", sans-serif; color: #1E3973; font-size: 25px; line-height: 2em; }
 
-@font-face {
-    font-family:"brandon-grot";
-    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/69b40392-453a-438a-a121-a49e5fbc9213.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9362bca5-b362-4543-a051-2129e2def911.woff") format("woff");
-font-display: swap;
-}
-
-#content { font-family: brandon-grot, sans-serif; color: #1E3973; font-size: 25px; line-height: 1.5em; }
-
-@font-face {
-    font-family: 'dancingscript-regular';
-    font-style: normal;
-    font-weight: 400;
-    src: url('//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/dancingscript/v9/DK0eTGXiZjN6yA8zAEyM2RN-0beyHaEC1kqeqPFpWrs.woff2') format('woff2');
-    font-display: swap;
-}
-
-.cursive, #content h3.cursive { font-family: dancingscript-regular, dancing script, cursive; }
+.cursive, #content h3.cursive { font-family: "Yuji Mai", serif; }
 #content h3.cursive { font-size: 45px; }

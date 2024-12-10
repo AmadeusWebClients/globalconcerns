@@ -4,7 +4,7 @@
 
 We believe that **education** is the most important requirement to build positively contributing citizens, upholding equality of all people and learning to live in harmony with the **environment**. <!--TODO: grammar-->
 
-The Schooling Project was initiated in 2002 with support from **friends of GCI**, led by **Suresh Venkat, Abhay Toshniwal, Snehaand Tushad Talati, Chatura Padaki and Shabari Padaki**.
+The Schooling Project was initiated in 2002 with support from **friends of GCI**, led by **Suresh Venkat, Abhay Toshniwal, Sneha and Tushad Talati, Chatura Padaki and Shabari Padaki**.
 
 Our belief is **that every child must have access to formal school and holistic learning to enhance their potential and inspire them to discover and follow their dreams**. <!--TODO: grammar-->
 
