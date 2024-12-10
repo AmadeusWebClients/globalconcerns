@@ -24,7 +24,7 @@ $logoRel =  logoRel();
 				<a target="_blank" href="<?php echo $item['link']; ?>" title="<?php echo isset($item['name']) ? $item['name'] : $item['type']; ?>" class="<?php echo $item['type']; ?>"><i class="icofont-<?php echo $item['type']; ?>"></i></a><?php } ?>
 			</div>
 		</section>
+		<?php if (am_var('use-assistant')) assistant('load'); ?>
 		<?php load_amadeus_module('share'); ?>
 	</div>
 </div>
-

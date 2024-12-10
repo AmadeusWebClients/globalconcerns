@@ -21,7 +21,9 @@ bootstrap([
 	'sections-have-files' => true,
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
-	'use-menu-files' => true,
+	'use-assistant-in' => ['people'],
+	'ul-not-ol' => true,
+
 	'blur_banners' => ['schooling'],
 	'siteHumanizeReplaces' => [
 		'schooling' => 'The Schooling Project',

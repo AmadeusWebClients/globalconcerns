@@ -27,7 +27,7 @@
 
 
 
-#content h2 { padding: 8px; border-radius: 0; display: inline-block; font-size: 36px; margin-bottom: 12px; }
+#content h2:not(.amadeus-feature h2) { padding: 8px; border-radius: 0; display: inline-block; font-size: 36px; margin-bottom: 12px; }
 #content h2.block { display: block; margin: 15px 0 10px 0; }
 #content h2, .site-bgd { background-color: var(--site-h2-bgd, #ccc); }
 

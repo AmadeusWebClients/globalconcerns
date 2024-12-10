@@ -1,5 +1,7 @@
 <?php
 render_banner();
+am_var('use-assistant', $useAssistant = in_array(am_var('node'), am_var_or('use-assistant-in', [])));
+if ($useAssistant) assistant();
 
 function render_banner() {
 	$folSite = am_var('path') . '/assets/pages/';
