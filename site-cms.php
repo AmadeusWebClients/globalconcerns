@@ -6,7 +6,7 @@ disk_include_once(SITEPATH . '/code/site-functions.php');
 bootstrap([
 	'name' => $name = 'Global Concerns India',
 	'byline' => 'Transforming every sphere of life, with values',
-	'footer-message' => '<marquee><a href="%url%about-us/">&hellip;connecting people to make mindful choices, strengthening relationships in harmony with nature.</a></marquee>',
+	'footer-message' => '<marquee><a href="%url%about-us/">&hellip;connecting people to make mindful choices, strengthening relationships in harmony with nature.</a></marquee>',
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,

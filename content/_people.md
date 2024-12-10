@@ -1,1 +1,1 @@
-These are the people who have stood by us and made a difference.<!--TODO: review-->
+These are the people who stand by us and make a difference.<!--TODO: review-->
