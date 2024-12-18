@@ -22,7 +22,8 @@ bootstrap([
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
 	'use-assistant-in' => ['people'],
-	'ul-not-ol' => true,
+	'no-voice-in-assistant' => true, //TODO: MA, can we make the controls look sleek then remove this feature?
+	'ul-not-ol-in-assistant' => true,
 
 	'blur_banners' => ['schooling'],
 	'siteHumanizeReplaces' => [
@@ -69,6 +70,6 @@ bootstrap([
 		//TODO: Insta, Newsletter / groups.io
 	],
 
-	'url' => $local ? replace_vars('http://localhost%port%/symphony/globalconcerns/', 'port') : 'https://globalconcerns.yieldmore.org/',
+	'url' => $local ? replace_vars('http://localhost%port%/symphony/globalconcerns/', 'port') : 'https://globalconcernsindia.org/',
 	'path' => SITEPATH,
 ]);
