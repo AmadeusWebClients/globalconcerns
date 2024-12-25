@@ -1,4 +1,4 @@
-%home-snippet%
+%latest-message-snippet%
 
 </section><hr /><section>
 

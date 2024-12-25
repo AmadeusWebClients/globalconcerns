@@ -17,7 +17,7 @@ bootstrap([
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
 	//'list-only-folders' => true,
-	'sections' => ['programs', /*'community', 'resources'*/],
+	'sections' => ['programs', 'events', /*'community', 'resources'*/],
 	'sections-have-files' => true,
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
@@ -25,7 +25,7 @@ bootstrap([
 	'no-voice-in-assistant' => true, //TODO: MA, can we make the controls look sleek then remove this feature?
 	'ul-not-ol-in-assistant' => true,
 
-	'blur_banners' => ['schooling'],
+	'blur_banners' => ['schooling', 'christmas-and-new-year'],
 	'siteHumanizeReplaces' => [
 		'schooling' => 'The Schooling Project',
 		'trafficking' => 'Combatting Human Trafficking',
@@ -49,11 +49,12 @@ bootstrap([
 
 	//TODO: Use when ready
 	'no-engage' => true,
-	'no-updates' => true,
+	'no-updates' => !$local,
 
 	'start_year' => '2005', //NB: confirmed - it's Jan 2005
+	'google-analytics' => 'G-8HS3SCXZL2',
 
-	'email' => 'globalconcernsindia@gmail.com',
+	'email' => 'brinda@globalconcernsindia.org',
 	'phone' => $phone = '+91.9845133354',
 	'phone2' => $phone2 = '+91.9845518138',
 
