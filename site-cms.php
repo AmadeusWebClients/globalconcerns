@@ -17,15 +17,14 @@ bootstrap([
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
 	//'list-only-folders' => true,
-	'sections' => array_merge(['programs', 'events'], !$local || isset($_GET['preview-mode']) ? ['community'] : []),
+	'sections' => array_merge(['programs', 'events'], $local || isset($_GET['preview-mode']) ? ['community'] : []),
 	'sections-have-files' => true,
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
-	'use-assistant-in' => ['people'],
-	'no-voice-in-assistant' => true, //TODO: MA, can we make the controls look sleek then remove this feature?
+	'no-assistant' => false,
 	'ul-not-ol-in-assistant' => true,
 
-	'blur_banners' => ['schooling', 'christmas-and-new-year'],
+	'blur_banners' => ['schooling', 'index', 'christmas-and-new-year'],
 	'siteHumanizeReplaces' => [
 		'schooling' => 'The Schooling Project',
 		'trafficking' => 'Combatting Human Trafficking',
@@ -67,7 +66,7 @@ bootstrap([
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/in/brinda-adige/', 'name' => 'LinkedIn: Brinda Adige (Founder) @ Global Concerns India' ],
 		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/GlobalConcernsIndia', 'name' => 'facebook: Global Concerns India Page' ],
 		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/GCI.CreativityCentre/', 'name' => 'facebook: GCI\'s Children\'s Creativity Centre Page' ],
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@GlobalConcernsIndia', 'name' => 'youtube: Global Concerns India Channel' ],
+		//[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@GlobalConcernsIndia', 'name' => 'youtube: Global Concerns India Channel' ],
 		//TODO: Insta, Newsletter / groups.io
 	],
 

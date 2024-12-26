@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
 
 :root {
+	--amadeus-site-body-background: #bee6f9;
 	--themecolor:  #C6C09C;
 	--themecolorrgb: 34, 185, 254;
 	--header-height: 70px;
@@ -12,7 +13,7 @@
 }
 
 #copyrights, body, .composite-work > section {
-    background-color: #bee6f9!important;
+    background-color: var(--amadeus-site-body-background, #eee)!important;
 }
 
 #content section, #content .content {

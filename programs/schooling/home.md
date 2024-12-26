@@ -1,6 +1,6 @@
 <h2 class="in-page">The Schooling Project</h2>
 
-### The Schooling Project is the flagship program of GCI.
+## The Schooling Project is the flagship program of GCI.
 
 We believe that **education** is the most important requirement to build positively contributing citizens, upholding equality of all people and learning to live in harmony with the **environment**. <!--TODO: grammar-->
 
