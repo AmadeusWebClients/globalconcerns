@@ -11,7 +11,7 @@
 	--site-h2-bgd: #FEB51A;
 }
 
-#copyrights, body {
+#copyrights, body, .composite-work > section {
     background-color: #bee6f9!important;
 }
 
@@ -26,6 +26,7 @@
 #header h1 { padding: 0px; height: 80px; background: url(globalconcernsindia-header-logo.png) no-repeat left center; background-size: contain; }
 
 #content h2:not(.amadeus-feature h2) { padding: 8px; border-radius: 0; display: inline-block; font-size: 25px; margin-bottom: 12px; }
+.composite-work h2 { display: block!important; }
 #content h2.block { display: block; margin: 15px 0 10px 0; }
 #content h2, .site-bgd { background-color: var(--site-h2-bgd, #ccc); }
 

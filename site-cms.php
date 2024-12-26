@@ -17,7 +17,7 @@ bootstrap([
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
 	//'list-only-folders' => true,
-	'sections' => ['programs', 'events', /*'community', 'resources'*/],
+	'sections' => array_merge(['programs', 'events'], !$local || isset($_GET['preview-mode']) ? ['community'] : []),
 	'sections-have-files' => true,
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
