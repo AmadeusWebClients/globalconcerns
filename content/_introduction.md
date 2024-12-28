@@ -7,7 +7,7 @@
 
 </section><section>
 
-**Global Concerns India** is a dedicated community-based civil society organization that champions education, gender equity, transformative leadership, and active community participation in local governance and our Constitution.
+**Global Concerns India** is a dedicated community-based civil society organization that champions education, gender equity, transformative leadership, and active community participation in local governance and understanding the Constitution.
 
 We are committed to combating domestic, gender-based violence and human trafficking for sexual exploitation, as well as bonded and forced labor.
 
