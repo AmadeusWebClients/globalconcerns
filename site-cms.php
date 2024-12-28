@@ -17,11 +17,11 @@ bootstrap([
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
 	//'list-only-folders' => true,
-	'sections' => array_merge(['programs', 'articles', 'resources'], $local || isset($_GET['preview-mode']) ? ['community'] : []),
+	'sections' => array_merge(['programs', 'articles', 'events', 'resources'], $local || isset($_GET['preview-mode']) ? ['community'] : []),
 	'section-groups' => [
 		'programs',
 		//TODO: MEDIUM: Reg the policy pdfs, lets reacreate them as pages with download as an option
-		'our world' => ['articles'/*, 'resources'*/],
+		'our world' => ['articles', 'events'/*, 'resources'*/],
 	],
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
