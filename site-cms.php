@@ -17,8 +17,11 @@ bootstrap([
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
 	//'list-only-folders' => true,
-	'sections' => array_merge(['programs', 'events'], $local || isset($_GET['preview-mode']) ? ['community'] : []),
-	'sections-have-files' => true,
+	'sections' => array_merge(['programs', 'articles', 'resources'], $local || isset($_GET['preview-mode']) ? ['community'] : []),
+	'section-groups' => [
+		'programs',
+		'our world' => ['articles', 'resources'],
+	],
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
 	'no-assistant' => false,
@@ -32,6 +35,7 @@ bootstrap([
 		'digital literacy' => 'BASIS Ethical Digital Literacy',
 		'women' => 'Adaikalam for Women',
 		'lifelong learning' => 'Assisted and Lifelong Learning Program',
+		'world' => 'GCI World',
 	],
 
 	'folder' => '/content/',
