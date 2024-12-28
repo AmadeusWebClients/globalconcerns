@@ -1,5 +1,12 @@
 <?php
+if (am_var('node') == 'index') {
+	echo '<div class="banner banner-' . am_var('node') . '">' .am_var('nl');
+	makePLImages('assets/globalconcernsindia-letterhead');
+	echo '</div>' . am_var('2br') . am_var('2nl');
+}
+
 render_banner();
+
 if (am_var('section') == 'articles') render_section_menu();
 if (!am_var('no-assistant') && am_var('node') != 'index') assistant();
 
@@ -14,8 +21,9 @@ function render_banner() {
 
 	foreach($prefixes as $at => $prefix) {
 		if (disk_file_exists(SITEPATH . '/' . ($prefix = str_replace(SITEPATH . '/', '', $prefix)) . '.jpg')) {
+			//TODO: Add PH & move to framework and have blur_banners understood by it
 			$blur = in_array(basename($prefix), am_var_or('blur_banners', []))
-				? 'filter: blur(5px); -webkit-filter: blur(3px); ' : '';
+				? 'filter: blur(3px); -webkit-filter: blur(3px); ' : '';
 			?>
 			<div class="banner banner-<?php echo $at; ?> bg-image"
 				style="background-image: url('<?php echo am_var('url') . $prefix;?>.jpg'); <?php echo $blur;?>background-position: center; height: 400px;">

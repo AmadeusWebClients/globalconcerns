@@ -1,5 +1,5 @@
 <?php
-renderAny(__DIR__ . '/_introduction.md', ['strip-paragraph-tag' => true]);
+renderAny(__DIR__ . '/_introduction.md');
 assistant();
 
 am_var('directory_of', 'programs');

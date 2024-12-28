@@ -20,7 +20,8 @@ bootstrap([
 	'sections' => array_merge(['programs', 'articles', 'resources'], $local || isset($_GET['preview-mode']) ? ['community'] : []),
 	'section-groups' => [
 		'programs',
-		'our world' => ['articles', 'resources'],
+		//TODO: MEDIUM: Reg the policy pdfs, lets reacreate them as pages with download as an option
+		'our world' => ['articles'/*, 'resources'*/],
 	],
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
