@@ -37,7 +37,7 @@ foreach ($sheet->rows as $item) {
 			'src' => $urlBase . $safeName . '.jpg',
 			'name' => $name], '%') . am_var('2nl');
 
-	echo '	<h3><i>' . $item[$cols['role']] . '</i></h3>' . am_var('nl');
+	echo '	<h4><i>' . $item[$cols['role']] . '</i></h4>' . am_var('nl');
 
 	$about = $aboutBase . $safeName . '.md';
 	if (disk_file_exists($about))

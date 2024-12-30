@@ -1,0 +1,7 @@
+Kalpana P.V. serves as the Vice-President of Global Concerns India, bringing a wealth of experience and dedication to the organization. A practicing lawyer in the Karnataka High Court and the director of the Advocates Cooperative Society in Bengaluru, and sits in the panel that campaigns for old and terminally ill prisoners, under the aegis of the Karnataka State Legal Services Authority. Kalpana combines her legal expertise with her passion for social justice.
+
+She has extensive experience working with civil society, particularly with children living on the streets. Her strengths lie in developing educational modules and systems tailored to the needs of vulnerable children and young people, fostering social development through innovative educational and sports initiatives. Notably, she was part of the pioneering efforts of "Budhivantha," spearheaded by Fr. George Kollashany at BOSCO.
+
+As the Vice-President, Kalpana supports the President by participating in board meetings, leadership gatherings, and organizational decision-making. She also serves as acting President in the President's absence, ensuring continuity in leadership. In addition, she oversees internal operations and plays a key role in building and maintaining strong client and partner relationships.
+
+Kalpana’s expertise and commitment to social change are vital to advancing Global Concerns India’s mission of empowering marginalized communities.

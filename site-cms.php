@@ -27,6 +27,7 @@ bootstrap([
 
 	'no-assistant' => false,
 	'ul-not-ol-in-assistant' => true,
+	'autofix-encoding' => true,
 
 	'blur_banners' => ['schooling', 'index', 'christmas-and-new-year'],
 	'siteHumanizeReplaces' => [
