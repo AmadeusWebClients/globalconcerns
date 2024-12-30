@@ -26,6 +26,7 @@ bootstrap([
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
 	'no-assistant' => false,
+	'no-voice-in-assistant' => true,
 	'ul-not-ol-in-assistant' => true,
 	'autofix-encoding' => true,
 

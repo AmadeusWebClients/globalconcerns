@@ -43,6 +43,6 @@ foreach ($sheet->rows as $item) {
 	if (disk_file_exists($about))
 		renderMarkdown($about);
 
-		echo '</div>';
+	echo '</div>';
 	section('end');
 }

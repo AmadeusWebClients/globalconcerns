@@ -4,4 +4,4 @@ She has extensive experience working with civil society, particularly with child
 
 As the Vice-President, Kalpana supports the President by participating in board meetings, leadership gatherings, and organizational decision-making. She also serves as acting President in the President's absence, ensuring continuity in leadership. In addition, she oversees internal operations and plays a key role in building and maintaining strong client and partner relationships.
 
-Kalpana’s expertise and commitment to social change are vital to advancing Global Concerns India’s mission of empowering marginalized communities.
+Kalpana's expertise and commitment to social change are vital to advancing Global Concerns India's mission of empowering marginalized communities.
