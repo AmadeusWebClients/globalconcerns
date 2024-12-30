@@ -33,7 +33,7 @@ foreach ($sheet->rows as $item) {
 	echo '<div>';
 
 	if (disk_file_exists($folBase . $safeName . '.jpg'))
-		echo replaceItems('<img class="bordered-image img-right img-max-300" src="%src%" alt="%name" />', [
+		echo replaceItems('<img class="bordered-image img-right img-max-300" src="%src%?fver=2" alt="%name" />', [
 			'src' => $urlBase . $safeName . '.jpg',
 			'name' => $name], '%') . am_var('2nl');
 
