@@ -1,17 +1,14 @@
-<section>
-	<?php renderMarkdown(__DIR__ . '/_people.md'); ?>
-</section>
-
 <?php
-$sheet = get_sheet('people', false);
+$page = am_var('node');
+$sheet = get_sheet($page, false);
 
 $cols = $sheet->columns;
 $started = false;
 $lastGroup = false;
 
-$urlBase = am_var('url') . 'assets/people/';
-$folBase = SITEPATH . '/assets/people/';
-$aboutBase = SITEPATH . '/content/people/';
+$urlBase = am_var('url') . 'assets/' . $page . '/';
+$folBase = SITEPATH . '/assets/' . $page . '/';
+$aboutBase = SITEPATH . '/content/' . $page . '/';
 
 foreach ($sheet->rows as $item) {
 	$name = $item[$cols['name']];
@@ -37,7 +34,8 @@ foreach ($sheet->rows as $item) {
 			'src' => $urlBase . $safeName . '.jpg',
 			'name' => $name], '%') . am_var('2nl');
 
-	echo '	<h4><i>' . $item[$cols['role']] . '</i></h4>' . am_var('nl');
+	if ($item[$cols['role']])
+		echo '	<h4><i>' . $item[$cols['role']] . '</i></h4>' . am_var('nl');
 
 	$about = $aboutBase . $safeName . '.md';
 	if (disk_file_exists($about))
@@ -46,3 +44,4 @@ foreach ($sheet->rows as $item) {
 	echo '</div>';
 	section('end');
 }
+
