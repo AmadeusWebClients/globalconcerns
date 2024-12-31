@@ -10,7 +10,7 @@ bootstrap([
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.5.3', 'date' => '31 Dec 2024' ],
+	'version' => [ 'id' => '1.5.4', 'date' => '31 Dec 2024' ],
 
 	'use-parent-slugs' => true,
 	'site-home-in-menu' => true,
@@ -85,3 +85,4 @@ bootstrap([
 	'url' => $local ? replace_vars('http://localhost%port%/symphony/globalconcerns/', 'port') : 'https://globalconcernsindia.org/',
 	'path' => SITEPATH,
 ]);
+

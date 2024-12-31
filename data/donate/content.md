@@ -1,4 +1,4 @@
-# Donation
+## Invitation to Donate
 
 GCI's focus is on children's education, health, nutrition and safety. Working with the poor in vulnerable communities also has other challenges like in any other-family conflicts, dropping out of school, being influenced to abusing drugs, risk of sexual and physical abuse.
 
@@ -12,7 +12,7 @@ You may also support the Transformative Leadershsip with Values program that eng
 
 </section><section>
 
-%bank-details-snippet%
+%donation-form%
 
 </section><section style="text-align: center;">
 
@@ -20,6 +20,9 @@ You may also support the Transformative Leadershsip with Values program that eng
 
 %upi-site-textbox%
 
-
 <a href="#upi-site"><img class="img-fluid img-max-300" src="%url%assets/globalconcernsindia-indian-upi-qrcode.jpg" /></a>
+
+</section><section>
+
+%bank-details-snippet%
 

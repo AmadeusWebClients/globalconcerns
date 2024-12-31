@@ -1,6 +1,10 @@
-<section>
 <?php
-$sheet = get_sheet('donate', false);
+DEFINE('DONATEPATH', SITEPATH . '/data/donate/');
+
+echo getSnippet('callout', DONATEPATH);
+section();
+
+$sheet = get_sheet(DONATEPATH . 'amounts.tsv', false);
 $items = [];
 $broken = false;
 $links = [];
@@ -17,17 +21,22 @@ foreach ($sheet->rows as $item) {
 		foreach ($links as $option)
 			$itemLinks[] = str_replace('%amount%', $amount, $option);
 
-		$items[] = 'Rs ' . ($amount == '0' ? '_' : $amount) . ' for <b>'
-			. item_r('what', $item, true) . '</b> &mdash; '
-			. implode(' / ', $itemLinks);
+		$for = item_r('what', $item, true);
+		$for = $for[0] == '*' ? ' ' . substr($for, 1) : ' to ' . $for;
+		if ($amount == '0') $amount = 'X';
+		$items[] = 'Pay Rs ' . $amount . ' ' . implode(' / ', $itemLinks) . $for . '.';
 	}
 }
 
-$amounts = '<ol><li>' . implode('</li><li>', $items) . '</li></ol>';
+$amounts = '<ol>' . am_var('nl') . '	<li>' . implode('</li>' . am_var('nl') . '	<li>', $items) . '</li>' . am_var('nl') . '</ol>';
+$amounts = replaceItems($amounts, ['##upi-id' => am_sub_var('upi', 'site')['id']]);
 
-renderMarkdown(__DIR__ . '/_donate.md', ['replaces' => [
-	'razorpay-links' => 'Make a payment with one of these:' . $amounts,
-	]
-]);
-?>
-</section>
+$details = renderMarkdown(DONATEPATH . 'details.md', ['echo' => false]);
+$content = renderMarkdown(DONATEPATH . 'content.md', ['echo' => false]);
+echo replaceItems($content, [
+	'donation-form' => $details,
+	'razorpay-links' => $amounts,
+], '%');
+
+section('end');
+

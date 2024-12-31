@@ -28,6 +28,8 @@
 #header .d-flex { gap: 0; }
 #header h1 { padding: 0px; height: 80px; background: url(globalconcernsindia-header-logo.png?fver=2) no-repeat left center; background-size: contain; }
 
+.node-donate .engage ol li { margin-bottom: 6px!important; }
+
 #content h2:not(.amadeus-icon) { padding: 8px; border-radius: 12px; display: inline-block; font-size: 25px; margin-bottom: 12px; }
 .composite-work h2 { display: block!important; }
 #content h2.block { display: block; margin: 15px 0 10px 0; }
