@@ -10,7 +10,7 @@ bootstrap([
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.1.3', 'date' => '10 Dec 2024', ],
+	'version' => [ 'id' => '1.5.3', 'date' => '31 Dec 2024' ],
 
 	'use-parent-slugs' => true,
 	'site-home-in-menu' => true,
@@ -21,7 +21,7 @@ bootstrap([
 	'section-groups' => [
 		'programs',
 		//TODO: MEDIUM: Reg the policy pdfs, lets reacreate them as pages with download as an option
-		'our world' => ['articles', 'events'/*, 'resources'*/],
+		'our world' => array_merge(['articles', 'events'/*, 'resources'*/], isset($_GET['preview-mode']) ? ['community'] : []),
 	],
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
@@ -30,7 +30,9 @@ bootstrap([
 	'ul-not-ol-in-assistant' => true,
 	'autofix-encoding' => true,
 
-	'no-assistant-in-header-for' => ['index'],
+	'no-assistant-in-header-for' => ['index',
+		'indian-ngos-for-women-and-children',
+	],
 	'default-banners-at' => ['index'], //TODO: HIGH: discuss the feature (flag)
 	'blur_banners' => ['schooling', 'index', 'christmas-and-new-year'],
 

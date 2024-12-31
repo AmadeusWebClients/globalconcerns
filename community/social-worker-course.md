@@ -16,6 +16,8 @@ Warm regards,<br />
 Brinda Adige<br />
 GlobalConcernsIndia.org
 
+<!--more-->
+
 </section><section>
 
 ## **Program Overview**

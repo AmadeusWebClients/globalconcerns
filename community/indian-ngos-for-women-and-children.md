@@ -12,6 +12,8 @@ This is a list of Organizations being compiled with the intent of reaching out t
 - Contact: [Guria India](https://www.guriaindia.org/)
 - Description: Works to combat human trafficking and provides holistic support to women and children in crisis situations.
 
+<!--more-->
+
 ## Centre for Social Research|2|New Delhi
 
 - State: New Delhi

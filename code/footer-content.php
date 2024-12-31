@@ -7,7 +7,7 @@ $logoRel =  logoRel();
 	<div class="container">
 		<?php if (!am_var('no-engage')) runCode('engage'); ?>
 		<section id="footer-message">
-			<a href="<?php echo $homeUrl;?>"><img src="<?php echo am_var('url') . 'assets/globalconcernsindia-header-logo.png'; ?>" class="img-fluid img-max-500" alt="<?php echo am_var('name'); ?>" /></a><br />
+			<a href="<?php echo $homeUrl;?>"><img src="<?php echo am_var('url') . 'assets/globalconcernsindia-header-logo.png?fver=2'; ?>" class="img-fluid img-max-500" alt="<?php echo am_var('name'); ?>" /></a><br />
 			<u><?php echo am_var('name'); ?></u> &mdash;
 			<?php renderMarkdown(am_var_or('footer-message', ''), ['strip-paragraph-tag' => true]); ?>
 			<hr />
