@@ -30,7 +30,10 @@ bootstrap([
 	'ul-not-ol-in-assistant' => true,
 	'autofix-encoding' => true,
 
+	'no-assistant-in-header-for' => ['index'],
+	'default-banners-at' => ['index'], //TODO: HIGH: discuss the feature (flag)
 	'blur_banners' => ['schooling', 'index', 'christmas-and-new-year'],
+
 	'siteHumanizeReplaces' => [
 		'schooling' => 'The Schooling Project',
 		'trafficking' => 'Combatting Human Trafficking',
