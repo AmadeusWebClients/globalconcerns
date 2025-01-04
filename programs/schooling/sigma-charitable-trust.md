@@ -1,5 +1,7 @@
 <img class="img-fluid" src="%url%assets/from-reports/sigma-charitable-trust-2023.jpg" alt="Sigma in action" />
 
+----
+
 **Sigma Raghava Daya Charitable Trust** believes in the potential of every child that is enhanced with education. In our country, many families continue to bear the brunt of poverty and joblessness, unable to extend schooling to children.
 
 SRDCT is keen to share with students the support required to remain and excel in scholastics and allied fields, so as to discover their capabilities and be the tool to create pathways to brighten their future.

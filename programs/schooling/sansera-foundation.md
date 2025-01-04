@@ -1,4 +1,6 @@
-<img class="img-fluid" src="%url%assets/from-reports/sansera-foundation-students-2023.jpg" alt="Sansera in action" />
+<img class="img-fluid" src="%url%assets/from-reports/sansera-foundation-students-2023.jpg?fver=2" alt="Sansera in action" />
+
+----
 
 **F.R. Singhvi** of the **[Sansera Foundation](https://sansera.in/#utm)** sponsors the school fees of 400 students in 15 different schools and hostels. He continues to co-invest with GCI in strengthening community development programs that seek to turn slums into **vibrant communities**, addressing the residents' multiple needs.
 
