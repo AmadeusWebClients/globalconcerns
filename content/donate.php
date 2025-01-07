@@ -1,7 +1,11 @@
 <?php
 DEFINE('DONATEPATH', SITEPATH . '/data/donate/');
 
+if (isset($_GET['poster']))
+	echo getSnippet('poster', DONATEPATH);
+
 echo getSnippet('callout', DONATEPATH);
+assistant();
 section();
 
 $sheet = get_sheet(DONATEPATH . 'amounts.tsv', false);
@@ -18,8 +22,10 @@ foreach ($sheet->rows as $item) {
 		$itemLinks = [];
 		$amount = item_r('amount', $item, true);
 
+		/*
 		foreach ($links as $option)
 			$itemLinks[] = str_replace('%amount%', $amount, $option);
+		*/
 
 		$for = item_r('what', $item, true);
 		$for = $for[0] == '*' ? ' ' . substr($for, 1) : ' to ' . $for;

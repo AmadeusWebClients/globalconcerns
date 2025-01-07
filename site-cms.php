@@ -12,7 +12,6 @@ bootstrap([
 	'support_page_parameters' => true,
 	'version' => [ 'id' => '1.5.4', 'date' => '31 Dec 2024' ],
 
-	'use-parent-slugs' => true,
 	'site-home-in-menu' => true,
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
@@ -30,7 +29,7 @@ bootstrap([
 	'ul-not-ol-in-assistant' => true,
 	'autofix-encoding' => true,
 
-	'no-assistant-in-header-for' => ['index',
+	'no-assistant-in-header-for' => ['index', 'donate',
 		'indian-ngos-for-women-and-children',
 	],
 	'default-banners-at' => ['index'], //TODO: HIGH: discuss the feature (flag)
