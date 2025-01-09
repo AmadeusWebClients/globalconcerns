@@ -1,6 +1,4 @@
-Since 2013, the Sansera Foundation of Sansera Engineering supports 450 children annually, in 10 schools.
-
-_Since 2003, The Schooling project has succeeded in supporting_:
+Since 2003, The Schooling project has succeeded in supporting:
 
 * **8975** students complete formal schooling till class 10
 * **2995** complete graduation

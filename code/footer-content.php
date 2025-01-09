@@ -25,8 +25,8 @@ $logoRel =  logoRel();
 			<hr />
 			<a href="<?php echo $homeUrl;?>"><img src="<?php echo am_var('url') . 'assets/globalconcernsindia-header-logo.png?fver=2'; ?>" class="img-fluid img-max-500" alt="<?php echo am_var('name'); ?>" /></a><br />
 		</section>
-		<?php if (!am_var('no-assistant')) assistant('load'); ?>
-		<?php load_amadeus_module('share'); ?>
+		<?php assistant('load'); ?>
+		<?php includeFeature('share'); ?>
 	</div>
 </div>
 

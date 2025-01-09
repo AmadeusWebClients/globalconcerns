@@ -16,12 +16,8 @@ bootstrap([
 	'home-link-to-section' => true,
 	'use-menu-files' => true,
 	//'list-only-folders' => true,
-	'sections' => array_merge(['programs', 'articles', 'events', 'resources'], $local || isset($_GET['preview-mode']) ? ['community'] : []),
-	'section-groups' => [
-		'programs',
-		//TODO: MEDIUM: Reg the policy pdfs, lets reacreate them as pages with download as an option
-		'our world' => array_merge(['articles', 'events'/*, 'resources'*/], isset($_GET['preview-mode']) ? ['community'] : []),
-	],
+	//TODO: policy pdfs, lets reacreate them as pages with download as an option
+	'sections' => ['programs', 'articles'], //TODO: Later - 'events', 'resources', 'community',
 	'scaffold' => $local ? ['updates', 'sitemap'] : ['sitemap'],
 
 	'no-assistant' => false,
