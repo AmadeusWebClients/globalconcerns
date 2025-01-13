@@ -30,9 +30,10 @@ foreach ($sheet->rows as $item) {
 	echo '<div>';
 
 	if (disk_file_exists($folBase . $safeName . '.jpg'))
-		echo replaceItems('<img class="bordered-image img-right img-max-300" src="%src%?fver=2" alt="%name" />', [
+		echo replaceItems('<img class="bordered-image img-right img-max-300" src="%src%?fver=3" alt="%name" />', [
 			'src' => $urlBase . $safeName . '.jpg',
 			'name' => $name], '%') . am_var('2nl');
+	//else if (am_var('local')) echo $safeName;
 
 	if ($item[$cols['role']])
 		echo '	<h4><i>' . $item[$cols['role']] . '</i></h4>' . am_var('nl');
@@ -40,6 +41,7 @@ foreach ($sheet->rows as $item) {
 	$about = $aboutBase . $safeName . '.md';
 	if (disk_file_exists($about))
 		renderMarkdown($about);
+	//else if (am_var('local')) echo $about;
 
 	echo '</div>';
 	section('end');

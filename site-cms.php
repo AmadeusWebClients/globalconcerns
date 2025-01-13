@@ -10,7 +10,7 @@ bootstrap([
 	'safeName' => 'globalconcernsindia',
 	
 	'support_page_parameters' => true,
-	'version' => [ 'id' => '1.5.4', 'date' => '31 Dec 2024' ],
+	'version' => [ 'id' => '1.5.5', 'date' => '13 Jan 2025' ],
 
 	'site-home-in-menu' => true,
 	'home-link-to-section' => true,
@@ -66,7 +66,7 @@ bootstrap([
 	'address' => 'Registered office: 17 Rhenius Street, 5A Sukhi Apartments, Richmond Town, Bengaluru-560 025',
 	'address2' => 'Community Office: No.25 & 26, 2nd Cross, LRNagar, opp. NGV, Koramangala, Bengaluru 560 047',
 
-	'upi' => [ 'site' => [ 'id' => 'gcindia1@sbi', 'name' => $name ] ],
+	'upi' => [ 'site' => [ 'id' => 'gcindia1@sbi', 'name' => str_replace(' ', '+', $name) ] ],
 	'social' => [
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/global-concerns-india/', 'name' => 'LinkedIn: Global Concerns India Company' ],
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/in/brinda-adige/', 'name' => 'LinkedIn: Brinda Adige (Founder) @ Global Concerns India' ],

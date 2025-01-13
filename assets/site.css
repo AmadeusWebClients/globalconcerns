@@ -51,3 +51,5 @@
 
 .cursive, #content h3.cursive { font-family: "Yuji Mai", serif; }
 #content h3.cursive { font-size: 45px; }
+
+.bordered-image { border-radius: 50%; }

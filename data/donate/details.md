@@ -1,4 +1,4 @@
-<!-- engage: SITE //engage-->
+<!-- eng--age: SITE //eng--age-->
 
 ## Donation Amounts & Details
 
@@ -8,6 +8,8 @@ You will then have an option of sending the message by email / whatsapp.
 
 #### Amounts and Targets
 
+NOTE: The **UPI links** will be up shortly.
+
 %razorpay-links%
 
 ----
@@ -16,7 +18,7 @@ You will then have an option of sending the message by email / whatsapp.
 
 Kindly note that amounts above Rs 500 require us to collect your name and PAN number.
 
-Donation Details++
+<u>Donation Details</u><!--TODO: ++-->
 
 * Full Name
 * Mobile
@@ -28,5 +30,4 @@ Donation Details++
 
 If the transaction id cannot be copied, a screenshot would do.
 
-%engage-note%
-
+<!--% engage-note% -->
