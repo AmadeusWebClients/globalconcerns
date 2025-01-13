@@ -46,7 +46,6 @@ bootstrap([
 
 	'siteMenuName' => 'GCI Main',
 	'abbr' => 'GCI',
-	'no-promotions' => true,
 
 	'theme' => 'biz-land',
 	'theme-color' => '22B9FE',
@@ -55,7 +54,7 @@ bootstrap([
 
 	//TODO: Use when ready
 	'no-engage' => true,
-	'no-updates' => !$local,
+	'no-updates' => true,
 
 	'start_year' => '2005', //NB: confirmed - it's Jan 2005
 	'google-analytics' => 'G-8HS3SCXZL2',

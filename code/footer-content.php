@@ -5,7 +5,7 @@ $logoRel =  logoRel();
 ?>
 <div id="footer-content" class="footer-bgd" style="margin-top: 30px;">
 	<div class="container">
-		<?php if (!am_var('no-engage')) runCode('engage'); ?>
+		<?php includeFeature('engage'); runDefinedEngages(); ?>
 		<section id="footer-message">
 			<h1><?php echo makeLink(am_var('name'), $homeUrl, false); ?></h1>
 			<?php renderMarkdown(am_var_or('footer-message', ''), ['strip-paragraph-tag' => true]); ?>
