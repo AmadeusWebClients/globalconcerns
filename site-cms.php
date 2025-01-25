@@ -29,7 +29,7 @@ bootstrap([
 	'no-assistant-in-header-for' => ['index', 'donate',
 		'indian-ngos-for-women-and-children',
 	],
-	'default-banners-at' => ['index'], //TODO: HIGH: discuss the feature (flag)
+	'default-banners-at' => ['index', 'invitation'], //TODO: HIGH: discuss the feature (flag)
 	'blur_banners' => ['schooling', 'index', 'christmas-and-new-year'],
 
 	'siteHumanizeReplaces' => [
