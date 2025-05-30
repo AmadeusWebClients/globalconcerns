@@ -1,0 +1,12 @@
+#key	value
+name	Global Concerns India
+byline	Transforming every sphere of life, with Values
+safeName	globalconcernsindia
+footer-message	<marquee><a href="%url%about-us/">&hellip;connecting people to make mindful choices, strengthening relationships in harmony with nature.</a></marquee>
+siteMenuName	GCI Main
+scaffold_no	search, sitemap
+sections	programs
+sections_todo	articles, events, resources, community
+local-url	http://localhost/sites/globalconcerns/
+live-url	https://preview.globalconcernsindia.org/
+year	2005

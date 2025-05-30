@@ -1,20 +1,19 @@
 <!-- eng--age: SITE //eng--age-->
 
-## Donation Amounts & Details
+
+[spacer]Donation Amounts & Details[/spacer]
 
 If you are donating, kindly tick the amount and the details below.
 
 You will then have an option of sending the message by email / whatsapp.
 
-#### Amounts and Targets
+## Amounts and Targets
 
 NOTE: The **UPI links** will be up shortly.
 
 %razorpay-links%
 
-----
-
-#### Details About You
+[spacer]Details About You[/spacer]
 
 Kindly note that amounts above Rs 500 require us to collect your name and PAN number.
 

@@ -6,7 +6,7 @@ The program creates a rich, literate environment by providing access to newspape
 
 <!--more-->
 
-</section><section>
+---
 
 ## Key Features
 
@@ -16,13 +16,13 @@ The program creates a rich, literate environment by providing access to newspape
 *   Organizing regular meetings with parents, particularly mothers, to foster involvement.
 *   Promoting extracurricular activities to enhance overall development.
 
-</section><section>
+---
 
 ## Quality Care
 
 To ensure quality care for children from within their families and communities. The best possible way to protect children from abuse, neglect, exploitation and violence is to keep them with their families and to help caregivers take care of them. Many of the families are under high stress from a variety of reasons such as disability or illness, poverty, which often means children do not receive the love and care they deserve.  This needs to be made possible by supporting families and working with the local government towards providing for them within the stipulations of provisions being made by the government.
 
-</section><section>
+---
 
 ## Elevate Competencies
 
@@ -38,7 +38,7 @@ We endorse and elevate competencies amongst the children and young people - such
 
 *   We operate from classrooms in schools where 80 children or more are being supported with partial school fees, on all working days with support educators and guest educators on a routine basis.
 
-</section><section>
+---
 
 ## Overall Outcomes
 
@@ -56,7 +56,7 @@ We endorse and elevate competencies amongst the children and young people - such
 
 *   To empower children, adolescents and youth who are marginalized, so as to develop adequate skills and competencies in learning a skill for employment, choosing an area for further studies, developing their communication skills, advocate against abuse of drugs and alcohol
 
-</section><section>
+---
 
 ## Our Activities
 

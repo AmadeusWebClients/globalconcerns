@@ -1,6 +1,11 @@
 <?php
-renderAny(__DIR__ . '/_introduction.md');
-assistant();
+echo getSnippet('latest-message');
 
-am_var('directory_of', 'programs');
-includeFeature('directory');
+contentBox('introduction', 'container');
+printH1InDivider('Welcome to ' . variable('name'));
+renderAny(__DIR__ . '/_introduction.md');
+contentBox('end');
+
+return; //TODO: High!
+variable('directory_of', 'programs');
+runFeature('directory');

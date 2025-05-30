@@ -14,7 +14,7 @@ The Schooling Project was initiated in 2002 with support from friends of GCI, le
 
 In 2002 five friends pooled money to keep 10 children from vulnerable and poor families in school. Over the years the number of children steadily increased, as did the number of friends supportingthis initiative. This group supports 300 students with part school fees, uniform and books.
 
-</section><section>
+---
 
 ## What Guides Our Work
 
@@ -28,7 +28,7 @@ A five pronged approach continues to guide our work:
 4. an instrument for promoting environmentally sound sustainable development, 
 5. a method of self enhancement  to facilitating poverty alleviation,
 
-</section><section>
+---
 
 ## Scholastic Impact
 

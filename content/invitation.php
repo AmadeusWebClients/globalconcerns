@@ -9,15 +9,21 @@ $sections = [
 	'in-closing',
 ];
 
-$fol = SITEPATH . '/content/' . am_var('node') . '/';
-foreach ($sections as $name) {
-	section();
-	h2(humanize($name));
+$fol = SITEPATH . '/content/' . variable('node') . '/';
 
-	echo replaceItems('<img class="float-md-right img-max-200"'
-		. ' src="%url%content/invitation/%name%.jpg" alt="%alt%" />' . am_var('nl'),
-			['url' => am_var('url'), 'name' => $name, 'alt' => humanize($name)], '%');
+sectionId('invitations', 'container');
+
+foreach ($sections as $ix => $name) {
+	//echo processSpacerShortcode('[spacer]' . humanize($name) . '[/spacer]');
+	contentBox($name, 'container');
+	echo SPACERSTART . humanize($name) . SPACEREND . cbCloseAndOpen();
+
+	echo replaceItems('<img class="float-right img-max-200"'
+		. ' src="%url%content/invitation/%name%.jpg" alt="%alt%" />' . variable('nl'),
+			['url' => pageUrl(), 'name' => $name, 'alt' => humanize($name)], '%');
 
 	renderAny($fol . $name . '.md');
-	section('end');
+	if ($ix != count($sections) - 1) contentBox('end');
 }
+
+section('end');
