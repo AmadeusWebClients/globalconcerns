@@ -18,9 +18,9 @@ variables([
 	'google-analytics' => 'G-8HS3SCXZL2',
 
 	'email' => 'brinda@globalconcernsindia.org',
-	'phone' => $phone = '+91.9845133354',
-	'whatsapp' => $phone,
-	'phone2' => $phone2 = '+91.9845518138',
+	'phone' => $phone = '+91.9845133354', $callee = 'Narayan',
+	'phone2' => $phone2 = '+91.9845518138', //$callee = 'Brinda',
+	'whatsapp' => $phone, 'whatsapp-info' => ' (' . $callee . ')',
 
 	'address' => '<a>Registered office</a>: 17 Rhenius Street, 5A Sukhi Apartments, Richmond Town, Bengaluru-560 025',
 	'address-url' => 'https://g.co/kgs/jRVUHEg',
@@ -47,7 +47,8 @@ function enrichThemeVars($vars, $what) {
 	}
 
 	if ($what == 'header' && variable('sub-theme') == 'kindergarten')
-		$vars['optional-slider'] = getSnippet('kindergarten-hero');
+		if (!getPageParameterAt(1))
+			$vars['optional-slider'] = getSnippet('kindergarten-hero');
 
 	return $vars;
 }
